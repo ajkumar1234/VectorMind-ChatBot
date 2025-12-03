@@ -22,22 +22,43 @@ Built using **LangChain**, **ChromaDB**, **OpenAI**, and **Streamlit**.
 ## 📁 Project Structure
 
 RAG-Chatbot/
+
+
 │
+
 ├── data/
+
 │ ├── documents/ # PDFs / text files for indexing
+
 │ └── embeddings/ # ChromaDB persistence
+
 │
+
 ├── src/
+
 │ ├── config.py
+
 │ ├── ingestion.py
+
 │ ├── embedding_store.py
+
 │ ├── retriever.py
+
 │ ├── llm.py
+
 │ └── rag_pipeline.py
+
 │
+
 ├── app/
+
 │ └── app.py # Streamlit application
+
 │
+
 ├── requirements.txt
+
 ├── .env.example
+
 └── README.md
+
